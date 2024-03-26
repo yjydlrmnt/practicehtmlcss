@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+  }
+  body {
+    background-color: lightgrey;
+  }
+  h1  {
+    text-align:center
+  }
+  
+  div {
+    color: slategray;
+    text
+  }
+  #name, #email, #carmodel, #color {
+    border-color: red;
+  
+  }label,input,select {
+    display: block;
+    width: 100%;
+  }
+  fieldset {
+    max-width: 400px;
+    margin:0 auto;
+    padding: 20px;
+    border: 5px solid gray;
+  }
+  button {
+    text-align: center;
+    width: 100%;
+    background-color: darkgray;
+    padding: 8px;
+  }
+  
+  input[type="color"] {
+    padding: 10px 3px;
+  }
+  input,select,button{
+    border: unset;
+    border-radius: 3px;
+    padding:2px;
+  }
+  legend {
+    font-weight: bold;
+    font-family: 'Lucida Sans';
+  
+  }
+  span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  label {
+    margin-bottom: 10px;
+  }
