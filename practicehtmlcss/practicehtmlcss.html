@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carbuy</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Car Buying Form</legend>
+        <div>
+          <label for="name">
+            <span>Name:</span>
+            <input type="text" id="name" placeholder="Enter your Name" />
+          </label>
+
+          <label for="email">
+            <span>Email:</span>
+            <input type="email" id="email" placeholder="example@gmail.com" />
+          </label>
+
+          <label for="carmodel">
+            <span>Car Model:</span>
+            <select name="carmodel" id="carmodel">
+              <option value="cm1">Sedan</option>
+              <option value="cm2">SUV</option>
+              <option value="cm3">Hatch</option>
+            </select>
+          </label>
+
+          <label for="color">
+            <span>Color:</span>
+            <input type="color" id="color" />
+          </label>
+
+          <label for="condition">
+            <span>Condition:</span>
+            <select name="condition" id="condition">
+              <option value="c1">New</option>
+              <option value="c2">Used</option>
+            </select>
+          </label>
+
+          <button type="submit" id="submit">submit the form</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
