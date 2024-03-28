@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -9,6 +10,10 @@ body {
 }
 main {
   display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 input,
 select,
@@ -17,13 +22,29 @@ button {
   width: 100%;
 }
 .carbuyform {
-  width: 50a%;
+  width: 100%;
   max-width: 400px;
-  border: 2px solid rgb(206, 206, 206);
-  padding: 10px;
+  background-color: grey;
+  padding: 15px;
+  height: 630px;
+}
+form {
+  border: 3px solid rgb(206, 206, 206);
+  padding: 20px;
+}
+span {
+  color: azure;
+  font-size: 13px;
+}
+legend {
+  color: azure;
+  font-size: 15px;
+}
+input {
+  margin-bottom: 5px;
 }
 fieldset {
-  padding: 5px;
+  padding: 10px;
   border: 2px solid rgb(206, 206, 206);
 }
 input[type="color"] {
@@ -34,9 +55,9 @@ button {
   color: white;
 }
 .caradvertisement {
-  border: 2px solid rgb(206, 206, 206);
+  background-color: aquamarine;
   width: 400px;
-  height: auto;
+  height: 600px;
 }
 aside {
   padding: 10px;
