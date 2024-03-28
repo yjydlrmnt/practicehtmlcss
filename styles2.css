@@ -26,7 +26,6 @@ button {
   max-width: 400px;
   background-color: grey;
   padding: 15px;
-  height: 630px;
 }
 form {
   border: 3px solid rgb(206, 206, 206);
@@ -39,6 +38,9 @@ span {
 legend {
   color: azure;
   font-size: 15px;
+}
+section {
+  height: 600px;
 }
 input {
   margin-bottom: 5px;
@@ -57,7 +59,6 @@ button {
 .caradvertisement {
   background-color: aquamarine;
   width: 400px;
-  height: 600px;
 }
 aside {
   padding: 10px;
