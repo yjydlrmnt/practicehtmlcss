@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: antiquewhite;
+}
+header {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+.nav-container {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: antiquewhite;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+}
+.search-input {
+  font-style: italic;
+  padding: 5px;
+}
+
+.nav-link-logo {
+  text-decoration: none;
+  color: antiquewhite;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2em;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+section {
+  width: 50%;
+}
+.buy-form {
+  background-color: antiquewhite;
+  border: 2px solid grey;
+}
+.buy-form-label {
+  display: block;
+}
+.buy-form-input,
+.buy-form-field-name {
+  display: block;
+}
+.car-ad-image {
+  width: 400px;
+}
