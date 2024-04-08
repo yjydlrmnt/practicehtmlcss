@@ -56,6 +56,7 @@ a {
   max-width: 100%;
   padding: 50px 30px 0 30px;
   justify-content: space-around;
+  align-items: center;
 }
 article {
   width: 50%;
@@ -95,19 +96,18 @@ article {
   background-color: rgb(198, 170, 77);
   border-radius: 50px 50px 0 0;
   width: 40%;
-  height: 800px;
+  height: 700px;
 }
 .filter {
   position: absolute;
   display: flex;
-  top: 100%;
+  top: 75%;
   left: 60px;
   background-color: white;
   box-shadow: 1px 1px 10px 2px rgb(198, 170, 77);
-  width: 55%;
+  width: 60%;
   padding: 10px;
   border-radius: 10px;
-  font-size: 12px;
 }
 .filter-options {
   display: flex;
@@ -127,14 +127,24 @@ article {
   font-weight: bold;
   padding: 15px 35px 15px 35px;
   border-radius: 10px;
+  border: none;
 }
 .filter-label {
-  font-size: 15px;
+  font-size: 20px;
+}
+.input-location,
+.input-date {
+  border: unset;
+  border: 0.5px solid;
+  color: lightgray;
+  font-size: 20px;
+  border-color: lightgray;
+  border-radius: 5px;
 }
 .car-sites {
   display: flex;
   position: absolute;
-  top: 150%;
+  top: 98%;
 }
 .car-sites-container {
   display: flex;
@@ -144,12 +154,14 @@ article {
   list-style: none;
 }
 .car-sites-link {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bolder;
   font-style: italic;
   list-style: none;
-  color: rgb(198, 170, 77);
+  color: grey;
 }
+
+/* =============++++++++++++++++===================+++++++++++++++++ */
 
 /* Psuedo class */
 .nav-link:hover {
@@ -171,4 +183,22 @@ article {
 }
 .download-apps:hover {
   padding: 2px;
+}
+.car-sites-link:hover {
+  color: rgb(198, 170, 77);
+  padding: 5px;
+}
+.input-location:hover {
+  background-color: rgb(198, 170, 77);
+  border: none;
+}
+.input-date:hover {
+  background-color: rgb(198, 170, 77);
+  border: none;
+}
+.search:hover {
+  background-color: rgb(198, 170, 77);
+  padding: 16px 36px 16px 36px;
+  box-shadow: 1px 1px 5px 1px;
+  border: none;
 }
