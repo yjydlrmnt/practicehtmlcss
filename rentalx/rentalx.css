@@ -136,15 +136,15 @@ article {
 .input-date {
   border: unset;
   border: 0.5px solid;
-  color: lightgray;
+  color: rgba(73, 73, 73, 0.434);
   font-size: 20px;
-  border-color: lightgray;
+  border-color: rgba(73, 73, 73, 0.434);
   border-radius: 5px;
 }
 .car-sites {
   display: flex;
   position: absolute;
-  top: 115%;
+  top: 130%;
 }
 .car-sites-container {
   display: flex;
@@ -158,16 +158,18 @@ article {
   font-weight: bolder;
   font-style: italic;
   list-style: none;
-  color: grey;
+  color: rgba(73, 73, 73, 0.525);
+  font-family: fantasy;
 }
 .booking-logo {
   display: block;
   margin: 0 auto;
+  padding-top: 10px;
   width: 50px;
 }
 .booking-container {
   position: absolute;
-  top: 130%;
+  top: 150%;
   align-items: center;
 }
 .booking-steps-container {
@@ -179,7 +181,6 @@ article {
   gap: 50px;
 }
 .booking {
-  border: 2px solid red;
   width: calc(100% / 3);
 }
 .booking-title,
@@ -188,6 +189,62 @@ article {
 .working-steps {
   text-align: center;
 }
+.how-it-works {
+  color: rgba(60, 60, 60, 0.355);
+  margin-bottom: 10px;
+}
+.working-steps {
+  font-size: 32px;
+  margin-bottom: 90px;
+}
+.booking-title {
+  margin-bottom: 20px;
+}
+
+.booking-location-logo-container,
+.booking-pick-up-date-logo-container,
+.booking-book-your-car-logo-container {
+  display: block;
+  margin: 0 auto;
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.booking-pick-up-date-logo-container {
+  background-color: rgba(255, 170, 0, 0.591);
+}
+.booking-location-logo-container,
+.booking-book-your-car-logo-container {
+  background-color: antiquewhite;
+}
+.services {
+  position: absolute;
+  top: 240%;
+}
+.services-offers {
+  list-style: none;
+}
+.services-offers-logo-container {
+  background-color: antiquewhite;
+  display: block;
+  margin: 0 auto;
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+}
+.services-offers-logo {
+  width: 70px;
+  padding: 5px;
+}
+.services-offers-section,
+.services-offers {
+  display: flex;
+}
+.services-offers-container {
+  display: flex;
+}
+
 /* =============++++++++++++++++===================+++++++++++++++++ */
 
 /* Psuedo class */
@@ -220,7 +277,7 @@ article {
   border: none;
 }
 .input-date:hover {
-  background-color: rgb(198, 170, 77);
+  background-color: rgba(198, 170, 77, 0.511);
   border: none;
 }
 .search:hover {
