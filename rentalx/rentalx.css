@@ -243,6 +243,7 @@ article {
 }
 .services-offers-container {
   display: flex;
+  flex-direction: column;
 }
 
 /* =============++++++++++++++++===================+++++++++++++++++ */
