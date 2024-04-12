@@ -86,8 +86,8 @@ article {
 }
 .image-car {
   position: absolute;
-  width: 120%;
-  left: 50%;
+  width: 145%;
+  left: 55%;
   top: -10%;
   transform: translateX(-58%);
 }
@@ -101,7 +101,7 @@ article {
 .filter {
   position: absolute;
   display: flex;
-  top: 90%;
+  top: 95%;
   left: 60px;
   background-color: white;
   box-shadow: 1px 1px 10px 2px rgb(198, 170, 77);
@@ -220,15 +220,16 @@ article {
 }
 .services {
   position: absolute;
-  top: 240%;
+  top: 230%;
+  left: 50%;
 }
 .services-offers {
   list-style: none;
 }
 .services-offers-logo-container {
   background-color: antiquewhite;
-  display: block;
-  margin: 0 auto;
+  /* display: block; */
+  /* margin: 0 auto; */
   width: 70px;
   height: 70px;
   border-radius: 5px;
@@ -240,10 +241,26 @@ article {
 .services-offers-section,
 .services-offers {
   display: flex;
+  gap: 30px;
 }
 .services-offers-container {
   display: flex;
   flex-direction: column;
+  gap: 20px;
+}
+.services-title {
+  color: rgba(60, 60, 60, 0.355);
+  margin-bottom: 15px;
+}
+.services-subtitle {
+  font-size: 35px;
+  width: 45%;
+  margin-bottom: 80px;
+}
+.orange-car {
+  position: absolute;
+  top: 230%;
+  right: 55%;
 }
 
 /* =============++++++++++++++++===================+++++++++++++++++ */
@@ -278,7 +295,7 @@ article {
   border: none;
 }
 .input-date:hover {
-  background-color: rgba(198, 170, 77, 0.511);
+  background-color: rgb(198, 170, 77);
   border: none;
 }
 .search:hover {
